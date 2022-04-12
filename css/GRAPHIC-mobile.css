@@ -1,0 +1,185 @@
+.pc-only{
+    display: none;
+
+
+}
+
+body{
+    
+}
+
+/* Header */
+
+Header {
+    width: 100%;
+    padding: 23px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F7FFEF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+Header>.Logo {
+    margin-top: 5px;
+}
+
+Header>.gnb-open-btn {
+    border-style: none;
+    background-color: transparent;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+/* Side-Gnb */
+
+.gnb.on {
+    width: 100%;
+    height: 50%;
+    position: fixed;
+    background-color: var(--bg-color);
+    z-index: 99;
+    right: 0;
+    top: 0;
+    text-align: center;
+    display: block;
+    padding-top: 23px;
+   
+  
+}
+
+.gnb {
+    display: none;
+    
+}
+
+.gnb-close-btn {
+    margin-top: 5px;
+    margin-left: 310px;
+    padding-right: 20px;
+    border-style: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.gnb > ul {
+    margin-bottom: 5%;
+}
+
+.gnb > ul > li {
+    margin-bottom: 10px;
+}
+
+.gnb > ul > li:last-child {
+    margin-bottom: 0;
+}
+
+.gnb > ul > li a {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.gnb>ul>li>a:hover {
+    color: #638E18
+}
+
+/* 섹션-1 */
+
+
+#WB-section-01 {
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Work-title > h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.Work-title .wb-work-underbar {
+    width: 100%;
+    border: 5px solid #638E18;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#WB-section-02 {
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    /* outline: 1px solid red; */
+    background-color: var(--bg-color);
+}
+
+.row-1{
+    margin-bottom: 50px;
+}
+
+.row-1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row-2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col > a > img {
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+
+
+
+
+
+
+#Footer{
+    width: 100%;
+    /* height: 100px; */
+    /* outline: 1px solid red; */
+    background-color: #3E3E3E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.f-address ul li{
+    display: block;
+    color: #fff;
+    font-weight: 400;
+    font-size: 10px;
+    text-align: left;
+}
+
+.f-logo > img {
+    width: 80%;
+}
+
+.f-line{
+    /* margin-right: 10px;
+    margin-left: 10px; */
+}
