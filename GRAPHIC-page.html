@@ -33,26 +33,28 @@
         <a href="./index.html" class="Logo">
             <img src="./images/Logo.png" alt="Logo.png">
         </a>
-        <button type="button" class="gnb-open-btn">
-            <img src="./images/GNB-Toggle-btn.svg" alt="GNB-Toggle-btn.svg">
-        </button>
+       
     </header>
-    <nav class="gnb">
-        <button type="button" class="gnb-close-btn">
-            <img src="./images/GNB-close-btn.svg" alt="GNB-close-btn.svg">
-        </button>
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./web-Publishing.html">WEB<br>PUBLISHING</a></li>
-            <li><a href="./UI.UX-page.html">GRAPHIC</a></li>
-            <li><a href="./images/portpolio.pdf" target="blink">Portfolio</a></li>
+    <div class="naviation">
+        <div class="userBox">
+            <div class="imgBox">
+                <img src="./images/Photo.png" alt="userimg">
+            </div>
+           <p class="username">CHOKENWOO</p>
+        </div>
+        <div class="menuToggle"></div>
+        <ul class="menu">
+            <li><a href="./index.html"><ion-icon name="home-outline"></ion-icon>Home</a></li>
+            <li><a href="./web-Publishing.html"><ion-icon name="desktop-outline"></ion-icon>Web-Publishing</a></li>
+            <li><a href="./UI.UX-page.html"><ion-icon name="desktop-outline"></ion-icon>UI/UX</a></li>
+            <li><a href="./images/portpolio.pdf" target="blink"><ion-icon name="document-text-outline"></ion-icon>Portfolio</a></li>
         </ul>
-    </nav>
+    </div>
     <section id="web-contents">
         <section id="WB-section-01">
             <div class="Work-title">
                 <h2 data-aos="fade-right">GRAPHIC</h2>
-                <div class="wb-work-underbar" data-aos="fade-right"></div>
+                <div class="wb-work-underbar" data-aos="fade-left"></div>
             </div>
         </section>
         <section id="WB-section-02">
@@ -117,6 +119,8 @@
                 <img src="./images/top-btn.svg" alt="top-btn.svg">
             </a>
         </div>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </section>
     <!-- fancybox4-script -->
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
