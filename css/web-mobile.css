@@ -165,10 +165,8 @@ Header>.Logo {
 
 /* contents */
 
-#web-contents{
-    width: 100%;
-    margin: 0 auto;
-    /* overflow-x: auto; */
+#web-contents {
+    overflow-x: hidden;
 }
 
 /* 섹션-1 */
