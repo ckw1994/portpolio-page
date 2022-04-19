@@ -160,7 +160,7 @@ Header>.Logo {
 }
 
 #web-contents {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 
